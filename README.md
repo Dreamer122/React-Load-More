@@ -10,16 +10,17 @@ It uses the useState-hook to manage the state of the number of products to displ
 The handleLoadMore function increases the number of products to show when the button is clicked.
 Product items are fetched from the Product.json file and rendered dynamically.
 **2. App Component:**
-The main component that renders the Load_More_Btn component.
-No additional functionality, simply renders the Load_More_Btn component.
-#File Structure:
-**App.js:** Main entry point of the application, renders the App component.
-**Load_More_Btn.js:** Contains the Load_More_Btn component.
-**Product.json:** JSON file containing product data.
-**App.css:** CSS file for styling.
+The main component that renders the Load_More_Btn component.  
+No additional functionality, simply renders the Load_More_Btn component.  
+# File Structure:  
+**App.js:** Main entry point of the application, renders the App component.  
+**Load_More_Btn.js:** Contains the Load_More_Btn component.  
+**Product.json:** JSON file containing product data.  
+**App.css:** CSS file for styling.    
 #Dependencies:
 React
-Bootstrap (assumed, based on the presence of Bootstrap classes in the code)
+Bootstrap (assumed, based on the presence of Bootstrap classes in the code)  
 
 
 
+![Screenshot 2024-04-20 134941](https://github.com/Dreamer122/React-Load-More/assets/126068795/45429b40-7854-486e-8063-84062d95b4df)
