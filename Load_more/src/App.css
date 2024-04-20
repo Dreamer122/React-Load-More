@@ -1,0 +1,49 @@
+img{
+  height:150px;
+  width:100%;
+}
+
+.item{
+ padding-inline: 8px;
+}
+.item-card{
+  transition:0.5s;
+  cursor:pointer;
+}
+.item-card-title{ 
+  font-size:15px;
+  transition:1s;
+  cursor:pointer;
+}
+
+.card-text{
+height:80px; 
+}
+.btn:focus{
+  box-shadow: none;
+
+}
+.btn-check:active+.btn-danger:focus, .btn-check:checked+.btn-danger:focus, .btn-danger.active:focus, .btn-danger:active:focus, .show>.btn-danger.dropdown-toggle:focus{
+  box-shadow: none;
+}
+.card::before, .card::after {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: scale3d(0, 0, 1);
+  transition: transform .3s ease-out 0s;
+  background: rgba(255, 255, 255, 0.1);
+  content: '';
+  pointer-events: none;
+}
+.card::before {
+  transform-origin: left top;
+}
+.card::after {
+  transform-origin: right bottom;
+}
+.card:hover::before, .card:hover::after, .card:focus::before, .card:focus::after {
+  transform: scale3d(1, 1, 1);
+}
