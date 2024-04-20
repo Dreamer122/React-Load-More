@@ -6,7 +6,7 @@ This project implements a simple React component to display a list of products f
 # Components:
 **1. Load_More_Btn Component:**
 This component is responsible for rendering the "Load More" button and displaying product items.
-It uses the useState hook to manage the state of the number of products to display.
+It uses the useState-hook to manage the state of the number of products to display.
 The handleLoadMore function increases the number of products to show when the button is clicked.
 Product items are fetched from the Product.json file and rendered dynamically.
 **2. App Component:**
