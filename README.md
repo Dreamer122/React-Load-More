@@ -1,9 +1,9 @@
  # React  Load more 
 
-#Project Name: Load More Button
-#Overview:
+# Project Name: Load More Button
+# Overview:
 This project implements a simple React component to display a list of products from a JSON file. It includes a "Load More" button that dynamically loads additional products when clicked.
-#Components:
+# Components:
 **1. Load_More_Btn Component:**
 This component is responsible for rendering the "Load More" button and displaying product items.
 It uses the useState hook to manage the state of the number of products to display.
